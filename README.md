@@ -14,4 +14,18 @@
  
 </div>
 
-This is just me experimenting with graphing procedurally generated weighted and unweighted networks in 3D/2D using SceneKit and SwiftUI.
+<div align="left">
+ 
+## Intro:
+This is just me experimenting with graphing procedurally generated weighted and unweighted networks in 3D/2D using SceneKit and SwiftUI. I'll be adding more and more functionality and graphics as I dig deeper into the framework.
+
+### Current Functionality:
+- Procedurally generate weighted / unweighted graphs in some arbitrary coordinate space. The default coordinate space is normalized to device space coordinates 0 -> 1.
+- Print out a debug log of all edges and vertices, as well as their connections via an adjacency list.
+- Control the zoom of the camera with discrete buttons
+
+### In-Progress:
+- Adding cylinder connectors between vertices in place of line primitives (will also probably add the option to toggle between either)
+- Adding more discrete controls to simplify movement around the scene
+
+</div>
