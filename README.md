@@ -13,3 +13,5 @@
 <img src="https://github.com/jcook03266/Graph/blob/master/Resources/hero.png" width = "800">
  
 </div>
+
+This is just me experimenting with graphing procedurally generated weighted and unweighted networks in 3D/2D using SceneKit and SwiftUI.
