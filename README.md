@@ -10,7 +10,7 @@
 
 <div align="center">
 
-<img src="https://github.com/jcook03266/Graph/blob/master/Resources/hero.png" width = "800">
+<img src="https://github.com/jcook03266/Graph/blob/main/Resources/hero.png" width = "800">
  
 </div>
 
