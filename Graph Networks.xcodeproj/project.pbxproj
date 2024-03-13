@@ -8,13 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		492A5E682B6A7AE30055416E /* Graph_NetworksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A5E672B6A7AE30055416E /* Graph_NetworksApp.swift */; };
-		492A5E6A2B6A7AE30055416E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A5E692B6A7AE30055416E /* ContentView.swift */; };
 		492A5E6C2B6A7AE30055416E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A5E6B2B6A7AE30055416E /* Item.swift */; };
 		492A5E6E2B6A7AE40055416E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492A5E6D2B6A7AE40055416E /* Assets.xcassets */; };
 		492A5E722B6A7AE40055416E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 492A5E712B6A7AE40055416E /* Preview Assets.xcassets */; };
 		492A5E7C2B6A7AE40055416E /* Graph_NetworksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A5E7B2B6A7AE40055416E /* Graph_NetworksTests.swift */; };
-		492A5E862B6A7AE40055416E /* Graph_NetworksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A5E852B6A7AE40055416E /* Graph_NetworksUITests.swift */; };
-		492A5E882B6A7AE40055416E /* Graph_NetworksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A5E872B6A7AE40055416E /* Graph_NetworksUITestsLaunchTests.swift */; };
+		492A5EA12B6A7CC90055416E /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A5EA02B6A7CC90055416E /* MainScreen.swift */; };
+		492A5EA32B6A7CD60055416E /* MainScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A5EA22B6A7CD60055416E /* MainScreenViewModel.swift */; };
+		492A5EAB2B6A7D500055416E /* AssociatedEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A5EA62B6A7D500055416E /* AssociatedEnum.swift */; };
+		492A5EAE2B6A7D500055416E /* GenericViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A5EA92B6A7D500055416E /* GenericViewModelProtocol.swift */; };
+		492A5EB22B6A7DB30055416E /* Graph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A5EB12B6A7DB30055416E /* Graph.swift */; };
+		492A5EB42B6A7DC90055416E /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A5EB32B6A7DC90055416E /* Vertex.swift */; };
+		492A5EB72B6A7F1C0055416E /* Edges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A5EB62B6A7F1C0055416E /* Edges.swift */; };
+		492A5EB92B6A82C70055416E /* Coordinate3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A5EB82B6A82C70055416E /* Coordinate3D.swift */; };
+		492A5EBE2B6A840B0055416E /* Geometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A5EBD2B6A840B0055416E /* Geometry.swift */; };
+		492A5EC02B6A8BB00055416E /* CoordinateSpace3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A5EBF2B6A8BB00055416E /* CoordinateSpace3D.swift */; };
+		492A5EC22B6A8C560055416E /* Plane3D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A5EC12B6A8C550055416E /* Plane3D.swift */; };
+		492A5EC52B6ABA020055416E /* CG+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A5EC42B6ABA020055416E /* CG+Extensions.swift */; };
+		492A5EC72B6AC6330055416E /* SCN+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A5EC62B6AC6330055416E /* SCN+Extensions.swift */; };
+		492A5EC92B6BCA630055416E /* Graph3DView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A5EC82B6BCA630055416E /* Graph3DView.swift */; };
+		492A5ECD2B6C6AE00055416E /* CameraController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A5ECC2B6C6AE00055416E /* CameraController.swift */; };
+		492A5ECF2B70AA080055416E /* LinearAlgebra.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492A5ECE2B70AA080055416E /* LinearAlgebra.swift */; };
+		49923B502BA104A3008FD416 /* Collection+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49923B4F2BA104A3008FD416 /* Collection+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +51,6 @@
 /* Begin PBXFileReference section */
 		492A5E642B6A7AE30055416E /* Graph Networks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Graph Networks.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		492A5E672B6A7AE30055416E /* Graph_NetworksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph_NetworksApp.swift; sourceTree = "<group>"; };
-		492A5E692B6A7AE30055416E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		492A5E6B2B6A7AE30055416E /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		492A5E6D2B6A7AE40055416E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		492A5E6F2B6A7AE40055416E /* Graph_Networks.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Graph_Networks.entitlements; sourceTree = "<group>"; };
@@ -45,8 +58,24 @@
 		492A5E772B6A7AE40055416E /* Graph NetworksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Graph NetworksTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		492A5E7B2B6A7AE40055416E /* Graph_NetworksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph_NetworksTests.swift; sourceTree = "<group>"; };
 		492A5E812B6A7AE40055416E /* Graph NetworksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Graph NetworksUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		492A5E852B6A7AE40055416E /* Graph_NetworksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph_NetworksUITests.swift; sourceTree = "<group>"; };
-		492A5E872B6A7AE40055416E /* Graph_NetworksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph_NetworksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		492A5EA02B6A7CC90055416E /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		492A5EA22B6A7CD60055416E /* MainScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewModel.swift; sourceTree = "<group>"; };
+		492A5EA62B6A7D500055416E /* AssociatedEnum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssociatedEnum.swift; sourceTree = "<group>"; };
+		492A5EA92B6A7D500055416E /* GenericViewModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericViewModelProtocol.swift; sourceTree = "<group>"; };
+		492A5EB12B6A7DB30055416E /* Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph.swift; sourceTree = "<group>"; };
+		492A5EB32B6A7DC90055416E /* Vertex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vertex.swift; sourceTree = "<group>"; };
+		492A5EB62B6A7F1C0055416E /* Edges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edges.swift; sourceTree = "<group>"; };
+		492A5EB82B6A82C70055416E /* Coordinate3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinate3D.swift; sourceTree = "<group>"; };
+		492A5EBD2B6A840B0055416E /* Geometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Geometry.swift; sourceTree = "<group>"; };
+		492A5EBF2B6A8BB00055416E /* CoordinateSpace3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinateSpace3D.swift; sourceTree = "<group>"; };
+		492A5EC12B6A8C550055416E /* Plane3D.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane3D.swift; sourceTree = "<group>"; };
+		492A5EC42B6ABA020055416E /* CG+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CG+Extensions.swift"; sourceTree = "<group>"; };
+		492A5EC62B6AC6330055416E /* SCN+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SCN+Extensions.swift"; sourceTree = "<group>"; };
+		492A5EC82B6BCA630055416E /* Graph3DView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Graph3DView.swift; sourceTree = "<group>"; };
+		492A5ECC2B6C6AE00055416E /* CameraController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraController.swift; sourceTree = "<group>"; };
+		492A5ECE2B70AA080055416E /* LinearAlgebra.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearAlgebra.swift; sourceTree = "<group>"; };
+		49923B4E2BA0F0DA008FD416 /* Graph-Networks-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Graph-Networks-Info.plist"; sourceTree = SOURCE_ROOT; };
+		49923B4F2BA104A3008FD416 /* Collection+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +107,6 @@
 			isa = PBXGroup;
 			children = (
 				492A5E662B6A7AE30055416E /* Graph Networks */,
-				492A5E7A2B6A7AE40055416E /* Graph NetworksTests */,
-				492A5E842B6A7AE40055416E /* Graph NetworksUITests */,
 				492A5E652B6A7AE30055416E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,12 +124,10 @@
 		492A5E662B6A7AE30055416E /* Graph Networks */ = {
 			isa = PBXGroup;
 			children = (
-				492A5E672B6A7AE30055416E /* Graph_NetworksApp.swift */,
-				492A5E692B6A7AE30055416E /* ContentView.swift */,
-				492A5E6B2B6A7AE30055416E /* Item.swift */,
-				492A5E6D2B6A7AE40055416E /* Assets.xcassets */,
+				49923B4E2BA0F0DA008FD416 /* Graph-Networks-Info.plist */,
+				492A5E952B6A7B290055416E /* Code */,
+				492A5E942B6A7B1A0055416E /* Testing */,
 				492A5E6F2B6A7AE40055416E /* Graph_Networks.entitlements */,
-				492A5E702B6A7AE40055416E /* Preview Content */,
 			);
 			path = "Graph Networks";
 			sourceTree = "<group>";
@@ -123,13 +148,160 @@
 			path = "Graph NetworksTests";
 			sourceTree = "<group>";
 		};
-		492A5E842B6A7AE40055416E /* Graph NetworksUITests */ = {
+		492A5E942B6A7B1A0055416E /* Testing */ = {
 			isa = PBXGroup;
 			children = (
-				492A5E852B6A7AE40055416E /* Graph_NetworksUITests.swift */,
-				492A5E872B6A7AE40055416E /* Graph_NetworksUITestsLaunchTests.swift */,
+				492A5E7A2B6A7AE40055416E /* Graph NetworksTests */,
 			);
-			path = "Graph NetworksUITests";
+			path = Testing;
+			sourceTree = "<group>";
+		};
+		492A5E952B6A7B290055416E /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				492A5ECB2B6C6AD00055416E /* Controllers */,
+				492A5EA42B6A7CF00055416E /* Common */,
+				492A5E9A2B6A7BAC0055416E /* Resources */,
+				492A5E982B6A7B540055416E /* App Interface */,
+				492A5E972B6A7B460055416E /* Screens */,
+				492A5E962B6A7B3A0055416E /* Data Models */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		492A5E962B6A7B3A0055416E /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				492A5EB02B6A7D9C0055416E /* Geometry */,
+				492A5E992B6A7B790055416E /* Persistent Storage */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		492A5E972B6A7B460055416E /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				492A5E9C2B6A7CA20055416E /* Main */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		492A5E982B6A7B540055416E /* App Interface */ = {
+			isa = PBXGroup;
+			children = (
+				492A5E672B6A7AE30055416E /* Graph_NetworksApp.swift */,
+			);
+			path = "App Interface";
+			sourceTree = "<group>";
+		};
+		492A5E992B6A7B790055416E /* Persistent Storage */ = {
+			isa = PBXGroup;
+			children = (
+				492A5E6B2B6A7AE30055416E /* Item.swift */,
+			);
+			path = "Persistent Storage";
+			sourceTree = "<group>";
+		};
+		492A5E9A2B6A7BAC0055416E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				492A5E702B6A7AE40055416E /* Preview Content */,
+				492A5E6D2B6A7AE40055416E /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		492A5E9C2B6A7CA20055416E /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				492A5E9F2B6A7CB30055416E /* View Models */,
+				492A5E9E2B6A7CAF0055416E /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		492A5E9E2B6A7CAF0055416E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				492A5EA02B6A7CC90055416E /* MainScreen.swift */,
+				492A5EC82B6BCA630055416E /* Graph3DView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		492A5E9F2B6A7CB30055416E /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				492A5EA22B6A7CD60055416E /* MainScreenViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		492A5EA42B6A7CF00055416E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				492A5EC32B6AB9F30055416E /* Extensions */,
+				492A5EBB2B6A83E50055416E /* Math */,
+				492A5EA52B6A7D500055416E /* Protocols */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		492A5EA52B6A7D500055416E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				492A5EA62B6A7D500055416E /* AssociatedEnum.swift */,
+				492A5EA92B6A7D500055416E /* GenericViewModelProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		492A5EB02B6A7D9C0055416E /* Geometry */ = {
+			isa = PBXGroup;
+			children = (
+				492A5EB52B6A7F0C0055416E /* Graph */,
+				492A5EB82B6A82C70055416E /* Coordinate3D.swift */,
+				492A5EBF2B6A8BB00055416E /* CoordinateSpace3D.swift */,
+				492A5EC12B6A8C550055416E /* Plane3D.swift */,
+			);
+			path = Geometry;
+			sourceTree = "<group>";
+		};
+		492A5EB52B6A7F0C0055416E /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				492A5EB32B6A7DC90055416E /* Vertex.swift */,
+				492A5EB12B6A7DB30055416E /* Graph.swift */,
+				492A5EB62B6A7F1C0055416E /* Edges.swift */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		492A5EBB2B6A83E50055416E /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				492A5EBD2B6A840B0055416E /* Geometry.swift */,
+				492A5ECE2B70AA080055416E /* LinearAlgebra.swift */,
+			);
+			path = Math;
+			sourceTree = "<group>";
+		};
+		492A5EC32B6AB9F30055416E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				492A5EC42B6ABA020055416E /* CG+Extensions.swift */,
+				492A5EC62B6AC6330055416E /* SCN+Extensions.swift */,
+				49923B4F2BA104A3008FD416 /* Collection+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		492A5ECB2B6C6AD00055416E /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				492A5ECC2B6C6AE00055416E /* CameraController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +434,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				492A5E6A2B6A7AE30055416E /* ContentView.swift in Sources */,
+				492A5EC92B6BCA630055416E /* Graph3DView.swift in Sources */,
+				492A5EB22B6A7DB30055416E /* Graph.swift in Sources */,
+				492A5EC52B6ABA020055416E /* CG+Extensions.swift in Sources */,
+				492A5EC02B6A8BB00055416E /* CoordinateSpace3D.swift in Sources */,
+				492A5EBE2B6A840B0055416E /* Geometry.swift in Sources */,
+				492A5EB92B6A82C70055416E /* Coordinate3D.swift in Sources */,
+				492A5EA12B6A7CC90055416E /* MainScreen.swift in Sources */,
+				492A5ECF2B70AA080055416E /* LinearAlgebra.swift in Sources */,
+				492A5EC22B6A8C560055416E /* Plane3D.swift in Sources */,
+				492A5EA32B6A7CD60055416E /* MainScreenViewModel.swift in Sources */,
+				492A5EC72B6AC6330055416E /* SCN+Extensions.swift in Sources */,
+				49923B502BA104A3008FD416 /* Collection+Extensions.swift in Sources */,
+				492A5EAB2B6A7D500055416E /* AssociatedEnum.swift in Sources */,
+				492A5EB42B6A7DC90055416E /* Vertex.swift in Sources */,
 				492A5E6C2B6A7AE30055416E /* Item.swift in Sources */,
 				492A5E682B6A7AE30055416E /* Graph_NetworksApp.swift in Sources */,
+				492A5EB72B6A7F1C0055416E /* Edges.swift in Sources */,
+				492A5ECD2B6C6AE00055416E /* CameraController.swift in Sources */,
+				492A5EAE2B6A7D500055416E /* GenericViewModelProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +468,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				492A5E882B6A7AE40055416E /* Graph_NetworksUITestsLaunchTests.swift in Sources */,
-				492A5E862B6A7AE40055416E /* Graph_NetworksUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -423,11 +609,14 @@
 				CODE_SIGN_ENTITLEMENTS = "Graph Networks/Graph_Networks.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Graph Networks/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Graph Networks/Code/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 2JMR3SJGS4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Graph-Networks-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Graph Networks";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -436,8 +625,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -461,11 +650,14 @@
 				CODE_SIGN_ENTITLEMENTS = "Graph Networks/Graph_Networks.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Graph Networks/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Graph Networks/Code/Resources/Preview Content\"";
 				DEVELOPMENT_TEAM = 2JMR3SJGS4;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Graph-Networks-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Graph Networks";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -474,8 +666,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
