@@ -10,7 +10,8 @@
 
 <div align="center">
 
-<img src="https://github.com/jcook03266/Graph/blob/main/Resources/hero.png" width = "800">
+<img src="https://github.com/jcook03266/Graph/blob/development/Resources/hero_1.png" width = "400">
+<img src="https://github.com/jcook03266/Graph/blob/development/Resources/hero_2.png" width = "400">
  
 </div>
 
@@ -18,6 +19,11 @@
  
 ## Intro:
 This is just me experimenting with graphing procedurally generated weighted and unweighted networks in 3D/2D using SceneKit and SwiftUI. I'll be adding more and more functionality and graphics as I dig deeper into the framework.
+
+## Demo:
+<div align="center">
+<video src="https://github.com/jcook03266/Procedural-Networks-3D/assets/63657230/f89d27f5-1e9a-4790-b150-51a859e58375" />
+</div>
 
 ### Current Functionality:
 - Procedurally generate weighted / unweighted graphs in some arbitrary coordinate space. The default coordinate space is normalized to device space coordinates 0 -> 1.
