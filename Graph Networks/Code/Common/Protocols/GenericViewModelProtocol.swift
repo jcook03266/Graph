@@ -18,11 +18,3 @@ extension GenericViewModel {
         return .init()
     }
 }
-
-/// View model that uses a coordinator object for navigation and routing
-protocol CoordinatedGenericViewModel: GenericViewModel {
-    associatedtype coordinator = any Coordinator
-
-    // MARK: - Observed Object
-    var coordinator: coordinator { get set }
-}

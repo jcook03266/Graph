@@ -25,7 +25,7 @@ struct Graph_NetworksApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainScreen()
         }
         .modelContainer(sharedModelContainer)
     }

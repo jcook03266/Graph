@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+extension CGSize {
+    static var normalized: CGSize {
+        return .init(width: 1, height: 1)
+    }
+}
